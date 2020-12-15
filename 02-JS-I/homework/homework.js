@@ -109,7 +109,7 @@ function obtenerResto(x, y) {
   // Tu código:
   return(x%y)
 }
-
+ 
 function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
@@ -183,7 +183,7 @@ function obtenerSaludo(nombre) {
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
-  
+
   // Retornar el area de un rectángulo teniendo su altura y ancho
   // Tu código:
   return(alto*ancho)
