@@ -88,20 +88,47 @@ function promedioResultadosTest(resultadosTest) {
   // "resultadosTest" debe ser una matriz de enteros (int/integers)
   // Itera (en un bucle) los elementos del array, calcula y devuelve el promedio de puntajes
   // Tu código:
-  
+  //--------------------------------------------------------------
+  //var x= agregarNumeros(resultadosTest);
+  //var z= resultadosTest.length;
+  //return (x/z) 
+  //--------------------------------------------------------------
+  return agregarNumeros(resultadosTest)/ resultadosTest.length;
 }
 
 function numeroMasGrande(numeros) {
   // "numeros" debe ser una matriz de enteros (int/integers)
   // Devuelve el número más grande
   // Tu código:
+  var max=0
+  for(var i = 0 ; i < numeros.length ; i++ ){
+    if ((numeros[i] % 1 ==0) && (numeros[i]>max)){
+      max=numeros[i]
+    }
+  }
+  return max
 }
 
 function multiplicarArgumentos() {
   // Usa la palabra clave `arguments` para multiplicar todos los argumentos y devolver el producto
-  // Si no se pasan argumentos devuelve 0
+  // Si no se pasan argumentos devuelve 0 
   // Si se pasa un argumento, simplemente devuélvelo
   // Tu código:
+
+  // si el argumento es menor a uno es negativo(imposible) o es cero
+  if(arguments.length < 1){
+    //no se pasaron argumentos asi que retorno 0
+    return 0;
+  }
+  //Si no se cumple lo de arriba seguira ya que no retornamos nada, por ende al menos 1 argumento paso.
+  var arg=1;
+  //iterar los argumentos
+  for(var i = 0; i< arguments.length; i++){
+    //Multiplico los arg
+    arg= arg * arguments[i];
+  }
+  //retorno los argumentos
+  return arg;
 }
 
 // No modificar nada debajo de esta línea
