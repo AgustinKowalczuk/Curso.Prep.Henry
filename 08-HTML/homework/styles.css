@@ -1,0 +1,32 @@
+h1{
+    background-color: black;
+    color: lightgreen;
+    text-align: center;
+}
+img {
+    width: 400px;
+}
+#divClass {
+    background-color: lightgreen;
+    border: 5px black solid;
+}
+#thirdDiv {
+    width: 500px;
+    height: 600px;
+    background-color: lightgreen;
+    padding: 50px;
+    border: 5px black solid;
+}
+#spanId{
+    text-align: center;
+    font-size: 18px;
+    margin: 50px;
+}
+body{
+    background-image: url("fondo.jpg");
+    background-position: center;
+}
+div{
+    text-align: center;
+    margin: 0 auto;
+}
