@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+    background-color: #F4FF89;
+    border: 5px black solid;
+}
+h3{
+    font-size: 20px;
+    text-align: center;
+}
+#Desc_Pers{
+    border: 5px black solid;
+    background-color: #F4FF89;
+}
+body{
+    background-color: #FAFFC5;
+    text-align: center;
+}
+img{
+    position:relative;
+    float: right;
+    top: 20px;
+    left: -20px;
+}
+p{
+    text-align: center;
+}
