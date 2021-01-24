@@ -17,7 +17,7 @@ function crearGato(nombre, edad) {
     return 'Meow!'
     }
   };
-  //Y por ultimo retornamos el objeto
+  //Y por ultimo retornamos el objeto 
   return Gato
 }
 
